@@ -1,0 +1,47 @@
+h1 {
+	color: #ff6600;
+	margin-top: 2em;
+	text-align:center;
+}
+
+#tablero {
+    width: 324px;
+    height: 324px; 
+    padding: 0px; 
+    border: 7px solid #004080; 
+    background-color: white; 
+    margin: 20px auto; 
+    cursor: pointer;
+}
+    
+#tablero .celda {
+	width: 100px;
+	height: 100px;
+	float: left; 
+	margin: 0px; 
+	font-size: 90px; 
+	text-align: center;
+}
+
+#celda1, #celda2, #celda3, #celda4, #celda5, #celda6 {
+	border-bottom: 5px solid #3973ac;
+}
+    
+#celda1, #celda2, #celda4, #celda5, #celda7, #celda8 {
+	border-right: 
+	5px solid #3973ac;
+}
+    
+#tablero > #tablero:hover {
+	background-color:#ddd;
+}
+
+#consola {
+	width: 310px;
+	height: 8em; 
+	padding: 1em; 
+	border: 5px solid #004080; 
+	background-color: white; 
+	margin: 10px auto; 
+	text-align: center;
+}
